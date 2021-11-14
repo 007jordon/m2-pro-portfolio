@@ -18,20 +18,15 @@ header nav ul li {
 
 aside .project-cards {
     padding: 5px;
-    display: flex;
-    flex-wrap: vertical;
     justify-content: space-evenly;
-    background-color: grey;
 }
 
 aside .project-cards .card {
     margin: 5px;
     flex-direction: coloumn;
     flex: 1 1 auto;
-    background-color: grey;
     align-items: center;
 
-    padding: 5px;
     height: auto;
     max-width: 100%;
 
