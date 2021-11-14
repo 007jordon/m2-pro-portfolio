@@ -13,8 +13,19 @@ header nav ul li {
     display: inline;
 }
 
-aside ul {
-    display: inline;
+aside .project-cards {
+    flex-direction: coloumn;
+    box-orient: veritcal;
+    justify-content: center;
+    align-items: center;
+    display: flex-wrap;
     padding: 0;
+    background-color: grey;
 }
 
+aside .project-cards .card {
+    flex-wrap: coloumn;
+    background-color: grey;
+    border: 1px solid grey;
+    text-align: center;
+}
