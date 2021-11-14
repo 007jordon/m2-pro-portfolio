@@ -18,9 +18,8 @@ header nav ul li {
 
 aside .project-cards {
     display: flex;
-    box-orient: veritcal;
+    flex-wrap: vertical;
     justify-content: center;
-    display: flex-wrap;
     padding: 0;
     background-color: grey;
 }
