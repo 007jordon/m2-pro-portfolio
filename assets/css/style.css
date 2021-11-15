@@ -11,24 +11,31 @@ h3 {
     text-align: center;
     margin: 0;
 }
+
+/* Nav */
 header nav ul {
     text-align: center;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 5px;
+    padding-bottom: 5px;
 }
 header nav ul li {
     display: inline;
+    color: grey;
 }
 
 /* Section/Body */
 .about-me {
     float: left;
-    width: 70%;
+    width: 60%;
 }
 
 /* Aside */
 aside {
     float: left;
     text-align: center;
-    width: 30%;
+    width: 40%;
 }
 
 aside h2 {
