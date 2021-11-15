@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Header */
 h1 {
     text-align: center;
@@ -7,21 +11,36 @@ h3 {
     text-align: center;
     margin: 0;
 }
-header nav ul{
+header nav ul {
     text-align: center;
 }
 header nav ul li {
     display: inline;
 }
 
+/* Section/Body */
+.about-me {
+    float: left;
+    width: 70%;
+}
+
 /* Aside */
+aside {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+aside h2 {
+    margin: 5px;
+}
 aside .project-cards {
     padding: 5px;
     justify-content: space-evenly;
 }
 .card img {
-    width: 360px;
-    height: 240px;
+    width: 180px;
+    height: 120px;
     max-width: 100%;
     max-height: auto;
     display: block;
