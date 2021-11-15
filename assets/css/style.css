@@ -19,7 +19,16 @@ aside .project-cards {
     padding: 5px;
     justify-content: space-evenly;
 }
-img {
+.card img {
+    width: 360px;
+    height: 240px;
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.front-page-intro-image img {
     max-width: 100%;
     max-height: auto;
     display: block;
