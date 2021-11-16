@@ -149,3 +149,20 @@ aside .project-cards .card {
     margin: 5px;
 
 }
+
+/* Resume */
+
+.placeholder-images .filler-image {
+    width: 180px;
+    height: 180px;
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.info .resume .placeholder-images {
+    display: flex;
+
+}
