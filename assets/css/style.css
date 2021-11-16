@@ -44,13 +44,13 @@ header nav ul li {
 /* Section/Body */
 .info {
     float: left;
-    width: 60%;
+    width: 70%;
     flex-direction: coloumn; 
     font-family: Helvetica, Arial, sans-serif;
 }
 
 .info .contact-me .logos {
-    display: inline;
+    display: flex;
 }
 
 .info .contact-me img {
@@ -67,7 +67,7 @@ header nav ul li {
 aside {
     float: left;
     text-align: center;
-    width: 40%;
+    width: 30%;
 }
 
 aside h2 {
@@ -86,6 +86,7 @@ aside .project-cards {
     max-height: auto;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .front-page-intro-image img {
@@ -95,25 +96,53 @@ aside .project-cards {
     margin: 0 auto;
 }
 
+aside {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 aside .project-cards .card {
     margin: 5px;
+    padding: 2px;
+    object-fit: cover;
+    object-position: 20% 10%;
     flex-direction: coloumn;
     flex: 1 1 auto;
     align-items: center;
 
     height: auto;
     max-width: 100%;
-}
-
-.zoom {
-    padding: 50px;
-    background-color: green;
     transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
 }
 
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.card:hover{
+    transform: scale(1.5); 
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Media Button */
+.fa {
+    padding: 20px;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-github {
+    background: #590059;
+    color: white;
 }
