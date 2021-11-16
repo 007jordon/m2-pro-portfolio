@@ -3,6 +3,16 @@
     background-color: #fff;
 }
 
+a:link {
+    color: grey;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: #A0A0A0;
+}
+
 /* Header */
 h1 {
     text-align: center;
@@ -26,30 +36,31 @@ header nav ul {
     padding-bottom: 10px;
 }
 
-.contact-me img {
-    width: 80px;
-    height: 80px;
-}
-
-a:link {
-    color: grey;
-    text-decoration: none;
-    letter-spacing: 2px;
-}
-
-a:hover {
-    color: #A0A0A0;
-}
-
 header nav ul li {
     display: inline;
     color: grey;
 }
 
 /* Section/Body */
-.about-me {
+.info {
     float: left;
     width: 60%;
+    flex-direction: coloumn; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.info .contact-me .logos {
+    display: inline;
+}
+
+.info .contact-me img {
+    width: 80px;
+    height: 80px;
+}
+
+.info .contact-me img {
+    width: 80px;
+    height: 80px;
 }
 
 /* Aside */
