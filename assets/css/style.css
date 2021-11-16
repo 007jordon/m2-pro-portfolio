@@ -135,14 +135,17 @@ aside .project-cards .card {
 
 /* Set a specific color for each brand */
 
-/* Facebook */
+/* LinkedIn */
 .fa-linkedin {
     background: #3B5998;
     color: white;
+    margin: 5px;
 }
 
-/* Twitter */
+/* GitHub */
 .fa-github {
     background: #590059;
     color: white;
+    margin: 5px;
+
 }
