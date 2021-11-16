@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #e2e2e2;
 }
 
 /* Header */
@@ -17,9 +18,19 @@ header nav ul {
     text-align: center;
     border-top: 1px solid #EAEAEA;
     border-bottom: 1px solid #EAEAEA;
+    color: #e2e2e2;
     padding: 5px;
     padding-bottom: 5px;
 }
+
+a:link {
+    color: grey;
+}
+
+a:hover {
+    color: #A0A0A0;
+}
+
 header nav ul li {
     display: inline;
     color: grey;
@@ -46,8 +57,8 @@ aside .project-cards {
     justify-content: space-evenly;
 }
 .card img {
-    width: 180px;
-    height: 120px;
+    width: 240px;
+    height: 180px;
     max-width: 100%;
     max-height: auto;
     display: block;
