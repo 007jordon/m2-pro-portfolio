@@ -152,17 +152,17 @@ aside .project-cards .card {
 
 /* Resume */
 
-.placeholder-images .filler-image {
+.filler-image img {
     width: 180px;
     height: 180px;
-    max-width: 100%;
-    max-height: auto;
-    display: block;
     margin: 0 auto;
-    object-fit: cover;
 }
+.resume img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto; 
+} 
 
-.info .resume .placeholder-images {
-    display: flex;
-
+.placeholder-images {
+    display: inline;
 }
